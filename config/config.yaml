@@ -1,0 +1,22 @@
+dataset:
+  root_dir: data/raw/plantvillage
+  train_dir: train
+  val_dir: val
+  image_size: 160
+  batch_size: 32
+  num_workers: 0
+
+training:
+  epochs: 3
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: adam
+
+model:
+  name: efficientnet_b0
+  pretrained: true
+  freeze_backbone: true
+
+output:
+  model_dir: outputs/models
+  plot_dir: outputs/plots

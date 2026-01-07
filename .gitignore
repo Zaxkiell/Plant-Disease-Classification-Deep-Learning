@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Model weights
+*.pth
+*.pt
+*.safetensors
+
+# Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
