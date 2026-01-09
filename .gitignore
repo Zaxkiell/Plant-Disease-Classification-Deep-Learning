@@ -1,21 +1,32 @@
-# Virtual environment
+# ===== Virtual environment =====
 .venv/
 venv/
 
-# Dataset
+# ===== Dataset =====
 data/raw/
 data/processed/
 
-# Model weights
+# ===== Model weights =====
 *.pth
 *.pt
 *.safetensors
 
-# Cache
+# ===== Training outputs =====
+outputs/models/
+outputs/logs/
+
+# ===== Cache =====
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# OS
+# ===== OS =====
 .DS_Store
 Thumbs.db
+
+# ===== Editor =====
+.vscode/
+.idea/
+
+# ===== Temporary / Office =====
+~$*.docx
